@@ -1,8 +1,12 @@
 import { Button, TextField, Typography } from '@mui/material'
 import React from 'react'
+import { useState } from 'react'
 
-const First = () => {
-  return (
+const First = (props) => {
+  console.log(props.data)
+  var[val,setVal] =useState({name:props.data.name,age:props.data.age})
+
+    return (
     <div>
       <h1>login page</h1>
      <h2></h2> <input type="text"></input>< br />
@@ -12,6 +16,7 @@ const First = () => {
       <br />
 
       <Typography variant="h3">login page</Typography>
+      <Typography></Typography>
       <br />
       <br />
       <br /><br />

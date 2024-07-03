@@ -14,7 +14,7 @@ const Navabar = () => {
 
           
           <Button color="inherit">
-          <Link to={'/f'}>
+          <Link to={'/l'}>
           Login
             </Link>
             </Button>
@@ -28,14 +28,29 @@ const Navabar = () => {
             Table
             </Link>
           </Button>
-          {/* <Button color='inherit'>
-          <Link to={'/f'}>
-          First
-            </Link>
-          </Button> */}
           <Button color='inherit'>
           <Link to={'/s'}>
             Statebasic
+            </Link>
+            </Button>
+         <Button color='inherit'>
+          <Link to={'/n'}>
+            New
+            </Link>
+            </Button>
+            <Button color='inherit'>
+          <Link to={'/f'}>
+            FormBasics
+            </Link>
+            </Button>
+            <Button color='inherit'>
+          <Link to={'/a'}>
+            ApiGet
+            </Link>
+            </Button>
+            <Button color='inherit'>
+          <Link to={'/j'}>
+            Jewelery
             </Link>
             </Button>
         </Toolbar>
